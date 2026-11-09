@@ -1,0 +1,17 @@
+# Where KR1 sits on the Hex Chronicle map (plate 2863; 1 hex = 1 league = 3 miles).
+# The hex content files themselves live in the hexchronicle repo under hexes/.
+module: KR1
+title: The Fortress of Kingsreach
+home_hex: "2863-127"          # Kingsreach (areas 1-30)
+sites:
+  - { area: "W10",     name: "Hillnest",                         address: "2863-101", feature: village,  visibility: public }
+  - { area: "G (A-J)", name: "The Gullet",                       address: "2863-128", feature: dungeon,  visibility: public }
+  - { area: "W8",      name: "The Drowned Bell",                 address: "2863-138", feature: ruin,     visibility: public }
+  - { area: "W9",      name: "Lighthouse Isle and the Kingslight", address: "2863-149", feature: landmark, visibility: public }
+  - { area: "W1",      name: "The Teeth",                        address: "2863-104", feature: landmark, visibility: public }
+  - { area: "W6",      name: "The Fennmouth",                    address: "2863-091", feature: lair,     visibility: public }
+  - { area: "W3",      name: "The Shrieking Rocks",              address: "2863-130", feature: lair,     visibility: public }
+  - { area: "W4",      name: "Gannet Islet",                     address: "2863-156", feature: landmark, visibility: public }
+  - { area: "W5",      name: "Seal Skerry",                      address: "2994-014", feature: village,  visibility: public }
+  - { area: "W7",      name: "Spider Cove",                      address: "2993-021", feature: lair,     visibility: gm-only }
+  - { area: "W2",      name: "Hob's Crag",                       address: "2863-129", feature: landmark, visibility: gm-only }

@@ -1,0 +1,8 @@
+{
+  "name": "hexchronicle-adventures",
+  "private": true,
+  "description": "Build tooling for Hex Chronicle adventure modules",
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}

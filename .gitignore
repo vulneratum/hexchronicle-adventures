@@ -1,0 +1,7 @@
+# build output — PDFs and IDML files are published as GitHub Release assets, not committed
+out/
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
